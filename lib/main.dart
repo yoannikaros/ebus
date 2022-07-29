@@ -1,4 +1,5 @@
 import 'package:ebus/ui/pasges/get_started_page.dart';
+import 'package:ebus/ui/pasges/sign_up_page.dart';
 import 'package:ebus/ui/pasges/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => SplashPage(),
-        '/get-strated': (context) => GetStartedPage()
+        '/get-strated': (context) => GetStartedPage(),
+        '/sign-up': (context) => SignUpPage()
       },
 
     );
